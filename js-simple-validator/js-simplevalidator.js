@@ -28,8 +28,6 @@ function heyBirth(date){
 }
 heyBirth(pBirth);
 
-/\b\w[A-Z]\b/
-/\b\d{2}?\d{2}?\d{2}\b/
 
 // POSTAL CODE
 var pPost = prompt("What's your postal code?", "xxxxx");

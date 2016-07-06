@@ -20,7 +20,7 @@ function heyBirth(date){
   if (date.length == 8 &&
       date.charAt(2) == '/' &&
       date.charAt(5) == '/' &&
-      date != /[A-Za-z0-9_]/) {
+      date == /\b[a-zA-Z]\b/) {
       alert("Valid");
     }else{
       alert("Please Enter a Valid Birthdate");
